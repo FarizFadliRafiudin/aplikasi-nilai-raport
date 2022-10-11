@@ -1,2 +1,1 @@
-# aplikasi nilai raport
-👋  
+# aplikasi nilai raport 👋
