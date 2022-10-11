@@ -18,10 +18,10 @@
         <input class="form-control" value="<?php echo $row["namalengkap"]; ?>" type="text" name="namalengkap"/><br>
 
         <label for="jenis_kelamin"> jenis kelamin :</label><br>
-        <input class="form-control" value="<?php echo $row["jenis_kelamin"]; ?>" type="date" name="jenis_kelamin" /><br>
+        <input class="form-control" value="<?php echo $row["jenis_kelamin"]; ?>" type="text" name="jenis_kelamin" /><br>
 
         <label for="kelas"> kelas :</label><br>
-        <input class="form-control" value="<?php echo $row["kelas"]; ?>" type="number" name="kelas"/><br>
+        <input class="form-control" value="<?php echo $row["kelas"]; ?>" type="text" name="kelas"/><br>
 
         <label for="nilai_kehadiran"> kelas :</label><br>
         <input class="form-control" value="<?php echo $row["nilai_kehadiran"]; ?>" type="number" name="nilai_kehadiran"/><br>
