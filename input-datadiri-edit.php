@@ -14,32 +14,26 @@
         <input class="form-control" value="<?php echo $row["nis"]; ?>" readonly type="number" name="nis"
             placeholder="Ex. 12001142" /><br>
 
-        <label for="nama"> Nama Lengkap :</label><br>
-        <input class="form-control" value="<?php echo $row["namalengkap"]; ?>" type="text" name="nama"
-            placeholder="Ex. Firdaus" /><br>
+         <label for="namalengkap"> Nama Lengkap :</label><br>
+        <input class="form-control" value="<?php echo $row["namalengkap"]; ?>" type="text" name="namalengkap"/><br>
 
-        <label for="tanggal_lahir"> Tanggal lahir :</label><br>
-        <input class="form-control" value="<?php echo $row["jenis_kelamin"]; ?>" type="date" name="tanggal_lahir" /><br>
-
-        <label for="kelas"> kelas :</label><br>
-        <input class="form-control" value="<?php echo $row["kelas"]; ?>" type="number" name="nilai"
-            placeholder="Ex. 80.56" /><br>
+        <label for="jenis_kelamin"> jenis kelamin :</label><br>
+        <input class="form-control" value="<?php echo $row["jenis_kelamin"]; ?>" type="date" name="jenis_kelamin" /><br>
 
         <label for="kelas"> kelas :</label><br>
-        <input class="form-control" value="<?php echo $row["nilai_kehadiran"]; ?>" type="number" name="nilai"
-            placeholder="Ex. 80.56" /><br>
+        <input class="form-control" value="<?php echo $row["kelas"]; ?>" type="number" name="kelas"/><br>
 
-        <label for="kelas"> kelas :</label><br>
-        <input class="form-control" value="<?php echo $row["nilai_tugas"]; ?>" type="number" name="nilai"
-            placeholder="Ex. 80.56" /><br>
+        <label for="nilai_kehadiran"> kelas :</label><br>
+        <input class="form-control" value="<?php echo $row["nilai_kehadiran"]; ?>" type="number" name="nilai_kehadiran"/><br>
 
-        <label for="kelas"> kelas :</label><br>
-        <input class="form-control" value="<?php echo $row["nilai_pts"]; ?>" type="number" name="nilai"
-            placeholder="Ex. 80.56" /><br>
+        <label for="nilai_tugas"> nilai tugas :</label><br>
+        <input class="form-control" value="<?php echo $row["nilai_tugas"]; ?>" type="number" name="nilai_pts"/><br>
 
-        <label for="kelas"> kelas :</label><br>
-        <input class="form-control" value="<?php echo $row["nilai_pas"]; ?>" type="number" name="nilai"
-            placeholder="Ex. 80.56" /><br>
+        <label for="nilai_pts"> nilai pts :</label><br>
+        <input class="form-control" value="<?php echo $row["nilai_pts"]; ?>" type="number" name="nilai_pts"/><br>
+
+        <label for="nilai_pas"> nilai pas :</label><br>
+        <input class="form-control" value="<?php echo $row["nilai_pas"]; ?>" type="number" name="nilai_pas"/><br>
 
         <input class="form-control" class='btn btn-sm btn-primary' type="submit" name="simpan"
             value="simpan data" /><br>
