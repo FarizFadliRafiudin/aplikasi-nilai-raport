@@ -66,7 +66,7 @@
         $nilai_pas = $_POST["nilai_pas"];
         // EDIT - Memperbarui Data
         $query = "
-            UPDATE datanilai SET namalengkap = '$nama',
+            UPDATE datanilai SET namalengkap = '$namalengkap',
             jenis_kelamin = '$jenis_kelamin',
             kelas = '$kelas'
             WHERE nis = '$nis';
